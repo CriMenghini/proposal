@@ -39,7 +39,7 @@ Nonostante tutte le aree sopraelencate risultino essere estremamente interessant
 
 
 ### 1) Istruzione 
-<img src="istruzione.jpeg" width="600" height="200">
+<img src="img/istruzione.jpeg" width="600" height="200">
 
 Per il settore istruzione mi muoverei così:
 
@@ -59,7 +59,7 @@ Per effettuare queste analisi dovrebbero bastare i dati di OpenCivitas. Per inda
 
 #### Viabilità
 
-<img src="viabilità.jpeg" width="600" height="200">
+<img src="img/viabilità.jpeg" width="600" height="200">
 
 Per quanto riguarda la viabilità mi concentrerei sulla granularità provinciale in quanto risulta più semplice trovare dati da incrociare a questo livello. Dal momento che le informazioni a livello provinciale sono ristrette all'anno 2010, procederei con l'aggregazione dei dati comunali. Quindi, definendo anche in questo caso, dei possibili step di analisi:
 
@@ -71,7 +71,7 @@ Per effettuare le analisi si utilizza OpenCivitas su viabilità comuni, che veng
 
 #### Trasporto pubblico
 
-<img src="bus" width="600" height="200">
+<img src="img/bus" width="600" height="200">
 
 Anche per il trasporto pubblico è conveniente fare le analisi su base provinciale. Si potrebbe procedere come segue:
 
@@ -82,13 +82,13 @@ Anche per il trasporto pubblico è conveniente fare le analisi su base provincia
 
 Per queste analisi si fa riferimento ai dati Open Civitas. Per l'incrocio con altri dati interessanti si fa riferimento ai dati sul trasporto messi a disposizione da ISTAT:
 
-* `tavole-statistiche.xlsx`: domanda ed offerta di trasporto pubblico locale 2011-2015.
-* `MOBILITA' URBANA_2014.xls`: mobilità urbana 2008-2014.
+* `data/trasporto/tavole-statistiche.xlsx`: domanda ed offerta di trasporto pubblico locale 2011-2015.
+* `data/trasporto/MOBILITA' URBANA_2014.xls`: mobilità urbana 2008-2014.
 * Sito [ISTAT](http://dati.istat.it/#) > Servizi > Trasporto aereo, etc > Spostamenti abituali per andare a scuola
 
 ### 3) Gestione territorio ed ambiente
 
-<img src="rifiuti.png" width="600" height="200">
+<img src="img/rifiuti.png" width="600" height="200">
 
 Relitavamente a tale settore, si pone il focus sui rifiuti.
 
@@ -98,7 +98,7 @@ Relitavamente a tale settore, si pone il focus sui rifiuti.
 
 
 A tal proposito usiamo i dati Open Civitas incrociati con i dati ISPRA:
-* `catasto_rifiuti_dati_di_dettaglio_da_2010_a_2013.csv`: informazioni al dettagli dei rifiuti prodotti dai comuni.
+* `data/rifiuti/catasto_rifiuti_dati_di_dettaglio_da_2010_a_2013.csv`: informazioni al dettagli dei rifiuti prodotti dai comuni.
 
 
 
