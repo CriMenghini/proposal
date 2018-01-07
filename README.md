@@ -49,9 +49,9 @@ Per il settore istruzione mi muoverei così:
 
 Per effettuare queste analisi dovrebbero bastare i dati di OpenCivitas. Per indagini dettagliate sui cluster, potrebbero essere utili i dati contenuti in:
 
-* `anagrafica_comuni`: andamento della popolazione dal 1971 al 2017 (decennale-quinquennale)
-* `info_comuni`: regione, superficie, latitudine, longitudine, etc (maggiori informazioni sul rispettivo `README.md`)
-* Nella cartella, scaricata da ISTAT, `Archivio elenco comuni codici e denominazioni_Anni 2008_2013`, si trovano le informazioni relative ai comuni per i diversi anni, se necessario c'è anche quella dal 2014 al 2017.
+* `data/comuni_ditalia/anagrafica_comuni`: andamento della popolazione dal 1971 al 2017 (decennale-quinquennale)
+* `data/comuni_ditalia/info_comuni`: regione, superficie, latitudine, longitudine, etc.
+* Nella cartella, `data/comuni_ditalia/elenco_comuni_2008_2013`, si trovano le informazioni relative ai comuni per i diversi anni, se necessario c'è anche quella dal 2014 al 2017.
 
 
 
